@@ -5,7 +5,7 @@ export default function Skills() {
     {
       title: "Programming Languages",
       icon: <Code2 size={28} className="text-indigo-600" />,
-      items: ["C++", "JavaScript", "SQL", "HTML", "CSS"],
+      items: ["C++", "JavaScript", "SQL"],
     },
     {
       title: "Frontend Development",

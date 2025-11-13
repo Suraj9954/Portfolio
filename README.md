@@ -1,16 +1,39 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS, showcasing my professional journey, skills, and projects as a Full-Stack Developer.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Dark Mode**: Built-in dark/light theme toggle with persistent preferences
+- **Modern UI**: Clean and vibrant interface with gradient backgrounds and smooth animations
+- **Interactive Elements**: Animated greetings, hover effects, and smooth transitions
+- **Type-Safe**: Built with React best practices and modern JavaScript
+- **Fast Performance**: Optimized with Vite for lightning-fast development and build times
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Development**: ESLint for code quality
 
-## Expanding the ESLint configuration
+## 👨‍💻 About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio showcases the work of **Suraj Kumar**, a Full-Stack Developer currently pursuing B.Tech at MNNIT Allahabad. Passionate about building scalable web applications with modern technologies.
+
+## 📄 License
+
+© 2025 Suraj Kumar. All Rights Reserved.
+
+## 🔗 Links
+
+- **Portfolio**: [portfolio-suraj-pi-80.vercel.app/](https://portfolio-suraj-pi-80.vercel.app/)
+- **LinkedIn**: [linkedin.com/in/suraj-kumar-982bab282](https://www.linkedin.com/in/suraj-kumar-982bab282/)
+- **GitHub**: [github.com/Suraj9954](https://github.com/Suraj9954)
+- **Instagram**: [@suraj.\_.kumar09](https://www.instagram.com/suraj._.kumar09/)
+
+---
+
+Built with ❤️ using React + Vite + Tailwind CSS

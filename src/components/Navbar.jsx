@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Sun, Moon, Globe } from "lucide-react";
+import { Sun, Moon } from "lucide-react";
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -25,34 +25,25 @@ export default function Navbar() {
   };
 
   return (
-    <nav
-      className="fixed top-0 left-0 w-full flex items-center justify-between px-8 md:px-16 lg:px-28 py-4 
-                    bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl z-50 
-                    border-b border-slate-200/50 dark:border-slate-800/50 shadow-sm"
-    >
-      <div
-        className="text-xl md:text-2xl font-bold tracking-wide 
-                bg-gradient-to-r from-indigo-500 to-purple-500 
-                bg-clip-text cursor-pointer
-                drop-shadow-sm"
-      >
-        PORTFOLIO
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] md:w-[calc(100%-4rem)] max-w-6xl flex items-center justify-between px-6 md:px-8 py-3 bg-white/80 dark:bg-slate-900/80 z-50 border border-slate-100 dark:border-slate-800 rounded-xl shadow-subtle backdrop-blur">
+      <div className="flex items-center gap-3">
+        <div className="text-lg md:text-xl font-semibold tracking-tight text-slate-900 dark:text-white">
+          PORTFOLIO
+        </div>
       </div>
 
-      <ul className="flex items-center gap-6 md:gap-8 text-sm md:text-base font-medium">
+      <ul className="flex items-center gap-4">
         <li>
           <a
             href="/Suraj_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
+            className="inline-flex items-center gap-2 px-3 py-1.5 bg-accent-500 hover:bg-accent-700 text-white rounded-md text-sm font-medium shadow-sm transition"
           >
             View Resume
           </a>
         </li>
-        <li className="cursor-pointer text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
-          Blog
-        </li>
+
       </ul>
     </nav>
   );

@@ -35,34 +35,21 @@ export default function Skills() {
   ];
 
   return (
-    <section
-      id="skills"
-      className="w-full px-8 md:px-16 lg:px-28 py-20 
-                 bg-white dark:bg-slate-900
-                 transition-all duration-700"
-    >
+    <section id="skills" className="w-full px-6 md:px-12 py-16 bg-slate-50 dark:bg-slate-900 transition-all duration-300">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <p className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase mb-2">
-            Technical Knowledge
-          </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white">
-            Skills & Technologies
-          </h2>
+        <div className="text-center mb-12">
+          <p className="text-sm font-semibold text-accent-500 tracking-wide uppercase mb-2">Technical Knowledge</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">Skills & Technologies</h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillData.map((skill, index) => (
             <div
               key={index}
-              className="group p-6 rounded-2xl border border-slate-200 dark:border-slate-700 
-                         bg-slate-50 dark:bg-slate-800/50 
-                         hover:border-indigo-300 dark:hover:border-indigo-600
-                         shadow-sm hover:shadow-xl 
-                         transition-all duration-500"
+              className="group p-6 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm hover:shadow-md transition-all duration-200"
             >
               <div className="flex items-center gap-3 mb-5">
-                <div className="p-2.5 bg-white dark:bg-slate-700 rounded-xl shadow-sm group-hover:scale-110 transition-transform duration-300">
+                <div className="p-2.5 bg-slate-50 dark:bg-slate-700 rounded-lg shadow-sm group-hover:scale-105 transition-transform duration-200">
                   {skill.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
@@ -70,17 +57,11 @@ export default function Skills() {
                 </h3>
               </div>
 
-              <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2">
                 {skill.items.map((item, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1.5 rounded-lg text-sm font-medium
-                               bg-white dark:bg-slate-700 
-                               text-slate-700 dark:text-slate-200 
-                               border border-slate-200 dark:border-slate-600
-                               hover:border-indigo-300 dark:hover:border-indigo-500
-                               hover:bg-indigo-50 dark:hover:bg-slate-600
-                               transition-all duration-300"
+                    className="px-3 py-1.5 rounded-md text-sm font-medium bg-slate-100 dark:bg-slate-700/50 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-600 transition-colors duration-200"
                   >
                     {item}
                   </span>

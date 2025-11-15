@@ -53,17 +53,6 @@ export default function Navbar() {
         <li className="cursor-pointer text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
           Blog
         </li>
-
-        <li
-          className="cursor-pointer p-2 rounded-lg bg-slate-100 dark:bg-slate-800 
-                     hover:bg-indigo-100 dark:hover:bg-slate-700 
-                     text-slate-700 dark:text-slate-300
-                     hover:text-indigo-600 dark:hover:text-indigo-400
-                     transition-all duration-300"
-          onClick={toggleTheme}
-        >
-          {darkMode ? <Moon size={20} /> : <Sun size={20} />}
-        </li>
       </ul>
     </nav>
   );

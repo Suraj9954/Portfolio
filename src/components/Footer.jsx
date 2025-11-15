@@ -20,42 +20,26 @@ export default function Footer() {
   ];
 
   return (
-    <footer
-      className="
-      w-full py-12 px-8 md:px-16 
-      bg-white dark:bg-slate-900
-      border-t border-slate-200 dark:border-slate-800
-      transition-all duration-700
-      "
-    >
-      <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
-        <div className="flex gap-4">
+    <footer className="w-full py-12 px-6 md:px-12 border-t border-slate-100 dark:border-slate-800 transition-all duration-300">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-6 text-center">
+        <div className="flex gap-3">
           {links.map((link, index) => (
             <a
               key={index}
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="
-                p-3 rounded-lg bg-slate-100 dark:bg-slate-800 
-                border border-slate-200 dark:border-slate-700
-                text-slate-700 dark:text-slate-300 
-                hover:scale-110 hover:bg-indigo-100 dark:hover:bg-slate-700
-                hover:text-indigo-600 dark:hover:text-indigo-400
-                hover:border-indigo-300 dark:hover:border-indigo-600
-                shadow-sm hover:shadow-lg
-                transition-all duration-300
-              "
+              className="p-3 rounded-md bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 shadow-sm transition"
             >
               {link.icon}
             </a>
           ))}
         </div>
 
-        <div className="h-px w-24 bg-gradient-to-r from-transparent via-slate-300 dark:via-slate-700 to-transparent"></div>
+        <div className="h-px w-20 bg-slate-200 dark:bg-slate-700"></div>
 
-        <div className="space-y-2">
-          <p className="text-slate-600 dark:text-slate-400 text-base">
+        <div className="space-y-1">
+          <p className="text-slate-600 dark:text-slate-400 text-sm">
             Designed & Built with ❤️ by{" "}
             <span className="font-semibold text-slate-900 dark:text-white">
               Suraj Kumar

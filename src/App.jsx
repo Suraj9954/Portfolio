@@ -9,13 +9,13 @@ import WorkExperience from "./components/WorkExperiance";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <Navbar />
       <Hero />
-      <Skills/>
-      <WorkExperience/>
-      <Education/>
-      <Connections/>
+      <Skills />
+      <WorkExperience />
+      <Education />
+      <Connections />
       <Footer />
     </div>
   );

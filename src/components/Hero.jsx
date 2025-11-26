@@ -74,7 +74,7 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <div className="w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl border border-slate-100 dark:border-slate-700">
             <img
-              src="/image.jpeg"
+              src="/Photo.jpeg"
               alt="Profile"
               className="w-full h-full object-cover object-top"
             />
